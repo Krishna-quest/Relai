@@ -2211,3 +2211,9 @@ button.btn.btn-signup {
         text-align: right;
         padding-right: 50; 
     }
+    .otp-form-control{
+        margin-right: 10px;
+        width: 20%;
+        
+
+    }
