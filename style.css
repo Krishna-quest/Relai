@@ -2664,8 +2664,7 @@ button.btn.btn-signup {
         border-radius: 10px;
     }
     
-element.style {
-}
+
 .form-control-size:nth-child(2n) {
     margin-right: 0;
 }
@@ -3052,4 +3051,195 @@ margin-top: 10px;}
         border-radius: 10px;
         border: 3px solid #005377;
         background-color: #ffffff;
+    }
+
+
+    .submit-proposal-header h3 {
+        color: #005377;
+        font-size: 30px;
+    }
+    .submit-proposal-header p img {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    .proposal-about-section p {
+        font-size: 18px;
+    }
+    .proposal-about-section h6 {
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+    }
+    .step-1 p {
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+    .step-1 h4 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+        color: #005377;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .input-box-size-fix {
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .proposal-about-section {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .input-control-size-fix{
+        margin: -7px 0px 5px 0px;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        width: 212px;
+    }
+    
+    .signup-header p{
+        color: #005377;
+        font-size: 25pt;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .signup-head h3{
+        color: #005377;
+        font-size: 50pt;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+   
+    .page-count {
+    font-size: 20pt;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+    .submit-sec {
+        margin-top: 30px;
+    }
+    .form-section{
+        margin-top: 20px ;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .form-section p, .form-section label{
+        font-size: 16px;
+        color: black;
+        font-weight: 300;
+    }
+    .note-sec p{
+        font-size: 14px;
+        color: #b1afaf
+    }
+    .text-field-size {
+        margin: 6px 0px 9px 0px;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .text-field {
+        margin: 6px 0px 9px 0px;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        width: 102%;
+    }
+    
+    .date-field-size {
+        margin: 5px 0px 9px 0px;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        width: 320px;
+    }
+    .input-box-size {
+        margin-left: 0px;
+         margin-bottom: 15px;
+    }
+    .plus-btn {
+        color: #005377;
+        width: 44px;
+        padding: 7px 9px;
+        margin-top: 8px;
+        margin-left: 12px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid #005377;
+        background-color: #ffffff;
+    }
+    .previous-btn {
+        color: #005377;
+        width: 100%;;
+        padding: 7px 9px;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+        border: 2px solid #005377;
+        background-color: #ffffff;
+        display: block;
+        margin: 0 auto;
+    }
+    .prev-btn{
+        margin-left: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .signup-header {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 65px;
+    }
+    .signup-head{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 0px;
+    }
+    .eductaion-sec{
+        padding-left:10px;
+       padding-bottom: 350px;
+    }
+    .edu-btn {
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .emp-btn{
+        margin-left: 0px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .employment-sec{
+           margin-top: 30px; 
+    }
+
+    .employment-sec p{
+        color: #005377;
+        font-size: 25pt;
+    }
+    .employment-sec h5{
+        color: #bcb8b8;
+        font-size: 20pt;
+    }
+    #selectBox2 {
+        width: 100%;
+        height: 48px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        margin-top: 5px;
+        padding-right:20px;
+    }
+    .profile-notes{
+        margin-left:20px;
+        margin-top: 5px;
     }
