@@ -2383,12 +2383,14 @@ button.btn.btn-signup {
         display: inline;
     }
     .card-fix{
-        width:13.9rem;
-        height:240px;
-        background-color: #fff;
-        margin-bottom: 15px;
-        filter: drop-shadow(0 0 5.5px rgba(0,0,0,0.1));
-        background-color: #ffffff;
+        width: 18.9rem;
+        height: 400px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 0 5.5px rgba(0,0,0,0.1));
+    background-color: #ffffff;
+    margin-left: 30px;
+
     }
    
     .card-header-fix{
@@ -2982,17 +2984,18 @@ margin-left: 20px;
 }
 
 .upload-portfolio{
-border: 1px solid #d6d6d6;
-display: inline-block;
-margin-left: 25px;
-height: 38px;
-float: left;
-width: 100px;
-padding: 2px 10px 10px 10px;
-text-align: center;
-border-radius: 5px;
-margin-bottom: 11px;
-margin-top: 10px;}
+    border: 1px solid #d6d6d6;
+    display: inline-block;
+    margin-left: 25px;
+    height: 38px;
+    float: left;
+    width: 100px;
+    padding: 2px 10px 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 11px;
+    margin-top: 10px;
+}
 
 .portfolio-submit-button {
     margin: 21px 11px 17px -102px;
@@ -3001,44 +3004,45 @@ margin-top: 10px;}
     /* width: 252px; */
     height: 60px;
     padding: 17px 20px 10px 20px;
-    border-radius: 15px;}
+    border-radius: 15px;
+}
 
-    .about-section h6{
+.about-section h6{
         margin: 0;
         font-size: 18px;
         color: #000;
         font-family: 'Gill Sans MT Bold';
         font-weight: 700;
     }
-    .img-fix{
+.img-fix{
         margin-top:15px;
     }
-    .complaints-sec{
+.complaints-sec{
         border-bottom: 2px solid #f5f5f5;
     }
-    .complaints{
+.complaints{
         margin-top:10px;
         padding-left:45px;
         margin-bottom: 10px;
     }
-    .complaints h2{
+.complaints h2{
         font-size: 30px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #005377;
         font-weight: bold;
     }
-    .complaints-header {
+.complaints-header {
         padding-left: 20px;
     }
-    .complaints-header h6{
+.complaints-header h6{
         font-weight: bold;
         font-size: 17.28px;
     }
-    .complaints-header p{
+.complaints-header p{
         
         font-size: 18px;
     }
-    .complaints-section{
+.complaints-section{
         margin-bottom: 15px;
     }
 
@@ -3052,8 +3056,6 @@ margin-top: 10px;}
         border: 3px solid #005377;
         background-color: #ffffff;
     }
-
-
     .submit-proposal-header h3 {
         color: #005377;
         font-size: 30px;
@@ -3243,3 +3245,109 @@ margin-top: 10px;}
         margin-left:20px;
         margin-top: 5px;
     }
+    .profile-radio{
+        margin-top: 10px;
+    }
+    .input-box-size-fix p{
+        color:#8a8989; 
+        margin-top:10px;
+    }
+    .btn-sec{
+        margin-top:60px;
+    }
+    .prev-btn-fix2{
+        margin-left: 14px;
+        margin-top: 150px;
+        margin-bottom: 20px;
+
+    }
+    .btn-add {
+        color: #005377;
+        width: 50px;
+        padding: 11px 9px;
+        margin-top: 2px;
+        margin-left: 0px;
+        border-radius: 10px;
+        border: 3px solid #005377;
+        background-color: #ffffff;
+        height: 50px;
+    }
+    .price-card-header{
+     background-color: #005377;   
+    }
+    .price-card-header p{
+        color: #ffffff;
+        text-align: center;
+        font-size: 23px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .triangle-down {
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 18px solid #005377;
+        /* text-align: center; */
+        float: right;
+        margin-left: 139px;
+    }
+    .price span{
+        font-size: 20px;
+        color: #000;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+
+    }
+    .price h3{
+        font-size: 50px;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .price-content{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .buy-sell{
+        background-color: #f7f7f7;
+        padding-left:10px;
+        padding-top: 100px;
+    }
+    .content-block{
+        border-right: 3px solid #005377;
+        padding: 20px;
+        height: 180px;
+        width: 280px;
+    }
+    .community-img{
+        margin-top: 20px;
+        padding-top: 52px;;
+    }
+
+    .content-block2{
+        padding: 20px;
+        height: 180px;
+        width: 280px;
+    }
+    .content-sec{
+        padding:20px;
+    }
+    .content-box h3{
+        color: #005377;
+        font-size: 25px;
+    }
+    .content-box h5{
+        font-size: 30px;
+        color: #333333;
+    
+    }
+
+
+
+
