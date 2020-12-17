@@ -331,11 +331,11 @@ section.discover-relai {
     padding: 80px 0px;
     position: relative;
 }
-p.small-title, .features-heading p, .testimonials-heading p{
+p.small-title, .teams-heading p,.features-heading p, .testimonials-heading p{
     text-transform: uppercase;
     color: #005377;
 }
-.discover-content h3, .features-heading h3, .testimonials-heading h3{
+.discover-content h3,.teams-heading h3, .features-heading h3, .testimonials-heading h3{
     font-size: 48px;
     line-height: 52px;
     color: #005377;
@@ -2390,8 +2390,60 @@ button.btn.btn-signup {
     filter: drop-shadow(0 0 5.5px rgba(0,0,0,0.1));
     background-color: #ffffff;
     margin-left: 30px;
-
     }
+    .new-card{
+        width: 18.9rem;
+        height: 400px;
+        background-color: #fff;
+        margin-bottom: 15px;
+        /* filter: drop-shadow(0 0 5.5px rgba(0,0,0,0.1)); */
+        background-color: #ffffff;
+        margin-left: 30px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+    }
+
+    .team-name h5{
+        color:#333333;
+        font-size :25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .team-name h6{
+        color:#005377;
+        font-size: 18px;
+        margin-top:20px;
+    }
+    .team-name p{
+        color: #666666;;
+        font-size: 18px;
+        margin-top:20px;
+    }
+    .img-fix2{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .social-media-icon a{
+        margin-right:10px;
+        color: #6e6e6e;
+    }
+    .social-media-icon a:hover{
+        margin-right:10px;
+        color: #005377;
+    }
+
    
     .card-header-fix{
         margin-top:15px;
@@ -2432,6 +2484,9 @@ button.btn.btn-signup {
     } 
     .card-body p {
         color: black;
+    }
+    .team-body p {
+        color: #666666;
     }
     ::placeholder { 
         color:black;
@@ -3316,6 +3371,12 @@ margin-left: 20px;
     }
     .buy-sell{
         background-color: #f7f7f7;
+        padding-left:10px;
+        padding-top: 100px;
+    }
+    .team{
+        background-color: #005377;
+        background-image: url("images/banner.png");
         padding-left:10px;
         padding-top: 100px;
     }
