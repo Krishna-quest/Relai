@@ -3406,9 +3406,65 @@ margin-left: 20px;
     .content-box h5{
         font-size: 30px;
         color: #333333;
-    
+    }
+    .block{
+        border: 1px solid #333333;
+        width: 250px;
+        height:80px;
+    }
+    .block a{
+        color:#000;
+        font-size:25px;
+    }
+    .block a:hover{
+        color:#ffffff;
+        font-size:25px;
+        background-color: #005377;
+        width: 250px;
+        height:80px;
+        background:#005377;
+    }
+    .text-block{
+     margin-left:20px;   
+    }
+    .about-us-sec h3{
+        margin-top:20px;
+        margin-bottom:20px;
+        color:#005377;
+        font-size:40px;
+    }
+    .about-us-sec p{
+        margin-top:20px;
+        margin-bottom:20px;
+        color: #333333;
+        font-size:20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .about-us-sec{
+        padding: 20px;
+    }
+    .img-sec{
+      
+        /* height: 221px;
+        padding-top: 45px;
+        padding-left: 30px;   */
+        padding-top: 45px;
+    padding-left: 30px;
+    }
+    .content-section{
+       
+           /* height: 477px; */
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 80px;
+    }
+    .row.block-content {
+        padding-top: 30px;
+        padding-left:30px;
     }
 
 
-
-
+    .about-us-icon-fix{
+        padding-top:20px;
+        
+    }
