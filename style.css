@@ -61,7 +61,7 @@ button:focus {
 /*header start*/
 header.home-page {
     padding: 20px 0px;
-    position: absolute;
+    position: static;
     top: 0;
     left: 0;
     right: 0;
@@ -582,6 +582,11 @@ button.btn.btn-signup {
 }
 .sidenav ul img {
     padding: 10px 0px;
+   
+}
+.sidenav2 ul img {
+    padding: 5px 0px;
+    height: 32px;
 }
 .dashboard nav.navbar.navbar-expand-lg ul.navbar-nav img {
     width: 25px;
@@ -729,19 +734,46 @@ h1 a.logo {
     position: relative;
     font-family: 'Gill Sans MT Bold';
 }
+.sidenav2 ul {
+    margin: 80px 0 0;
+    padding: 0;
+    list-style: none;
+}
+.sidenav2 ul li.active {
+    font-weight: 700;
+    color: #005377;
+    position: relative;
+}
 .sidenav ul li {
     display: block;
     padding-left: 30px;
     margin: 20px 0px;
 }
+.sidenav2 ul li {
+    display: block;
+    padding-left: 40px;
+    margin: 10px 0px;
+}
 .sidenav ul li.active a {
     color: #005377;
 }
-.sidenav ul li a{
-    font-size:17px;
+.sidenav2 ul li.active a {
+    color: #005377;
+}
+.sidenav ul li a {
+    font-size: 17px;
+    
+}
+.sidenav2 ul li a {
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
 }
 .sidenav a {
     color: #8a8989;
+}
+.sidenav2 a {
+    color: #cecece;
 }
 .user-name {
     margin-top: 10px;
@@ -761,10 +793,31 @@ img.act-img {
 .sidenav ul li img {
     margin-right: 20px;
 }
+.sidenav2 ul li img {
+    margin-right: 8px;
+}
 .sidenav ul li.active img.act-img {
     display: block;
     top: 0;
     position: absolute;
+}
+.sidenav2 ul li.active img.act-img {
+    display: block;
+    top: 0;
+    position: absolute;
+}
+.sidenav2 ul li.completed a {
+    color: #005377;
+    font-weight: 700;
+}
+.sidenav2 ul li.completed{
+    position: relative;
+}
+.sidenav2 ul li.completed img.complete-img {
+    display: block;
+    top: 0;
+    position: absolute;
+    background-color: #fff;
 }
 .left-heading {
     float: left;
@@ -3406,65 +3459,267 @@ margin-left: 20px;
     .content-box h5{
         font-size: 30px;
         color: #333333;
-    }
-    .block{
-        border: 1px solid #333333;
-        width: 250px;
-        height:80px;
-    }
-    .block a{
-        color:#000;
-        font-size:25px;
-    }
-    .block a:hover{
-        color:#ffffff;
-        font-size:25px;
-        background-color: #005377;
-        width: 250px;
-        height:80px;
-        background:#005377;
-    }
-    .text-block{
-     margin-left:20px;   
-    }
-    .about-us-sec h3{
-        margin-top:20px;
-        margin-bottom:20px;
-        color:#005377;
-        font-size:40px;
-    }
-    .about-us-sec p{
-        margin-top:20px;
-        margin-bottom:20px;
-        color: #333333;
-        font-size:20px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    .about-us-sec{
-        padding: 20px;
-    }
-    .img-sec{
-      
-        /* height: 221px;
-        padding-top: 45px;
-        padding-left: 30px;   */
-        padding-top: 45px;
-    padding-left: 30px;
-    }
-    .content-section{
-       
-           /* height: 477px; */
-    padding-left: 30px;
-    padding-bottom: 30px;
-    margin-top: 80px;
-    }
-    .row.block-content {
-        padding-top: 30px;
-        padding-left:30px;
+    
     }
 
+/*body{
+    padding-top: 145px;
+}*/
 
-    .about-us-icon-fix{
-        padding-top:20px;
-        
-    }
+
+.banner-blue-bg {
+    background-color: #005377;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.team {
+    background-image: none !important;
+}
+section.features {
+    overflow: hidden;
+}
+.outer-banner-team{
+    position: relative;
+}
+.outer-banner-team img{
+    opacity: 0.1;
+}
+.outer-banner-team .main-content.team {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.outer-banner-team .main-content.team h3 {
+    font-size: 40px;
+    font-weight: 800;
+}
+.outer-banner-team .main-content.team p {
+    font-size: 16px;
+    color: #ddd;
+    padding-right: 0;
+    letter-spacing: 1px;
+}
+.progress-line{
+
+}
+.progress-line ul {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.progress-line ul li {
+    width: 70px;
+    height: 80px;
+    position: relative;
+    background-color: #ddd;
+    list-style: none;
+    margin: 5px 20px;
+    vertical-align: middle;
+    padding: 0px;
+    text-align: center;
+}
+/*    .progress-line ul li:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    background-image: url(images/white-prgress=arrow.png);
+    height: 100%;
+    width: 100%;
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}*/
+ .progress-line ul li img {
+    position: absolute;
+    left: -20px;
+    top: -6px;
+    z-index: 100;
+    height: 104px;
+}
+.progress-line ul li span {
+    position: absolute;
+    top: 20%;
+    font-size: 14px;
+    color: #a9a9a9;
+    font-weight: 600;
+}
+.progress-line ul li:after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #fff;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+.progress-line ul li:before {
+    content: "";
+    position: absolute;
+    right: -29px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid #ddd;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+.left-side-content-progress{
+
+}
+.left-side-content-progress h3 {
+    color: #005377;
+    font-family: inherit;
+    font-size: 24px;
+}
+.left-side-content-progress p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.left-side-content-progress p img{
+    height: 16px;
+    margin-right: 5px;
+
+}
+.left-side-content-progress ul{
+padding-left: 0;
+}
+.left-side-content-progress ul li{
+display: inline-block;
+list-style: none;
+width: 20px;
+}
+.left-side-content-progress ul li img {
+    width: 40px;
+    max-width: initial;
+    height: 40px;
+}
+.progress-box {
+    padding: 20px;
+    border-radius: 10px;
+}
+.time-schedule ul{
+    padding-left: 0;
+    margin: 0;
+}
+.time-schedule ul li{
+    display: inline-block;
+}
+.time-schedule ul li div {
+    margin: 5px 20px 5px 0px;
+    font-size: 14px;
+}
+.time-schedule ul li div img{
+    height: 18px;
+}
+
+.time-schedule2 ul{
+    padding-left: 0;
+    margin: 0;
+}
+.time-schedule2 {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.time-schedule2 ul li{
+    display: inline-block;
+}
+.time-schedule2 ul li div {
+    margin: 5px 20px 5px 0px;
+    font-size: 14px;
+}
+.time-schedule2 ul li div img{
+    height: 18px;
+}
+
+.progress-line ul li.progress-1 {
+    background-color: #013b4f;
+}
+.progress-line ul li.progress-1 span {
+    color: #fff;
+}
+.progress-line ul li.progress-1:before {
+    border-left: 30px solid #013b4f;
+}
+
+.progress-line ul li.progress-2 {
+    background-color: #024c60;
+}
+.progress-line ul li.progress-2 span {
+    color: #fff;
+}
+.progress-line ul li.progress-2:before {
+    border-left: 30px solid #024c60;
+}
+
+.progress-line ul li.progress-3 {
+    background-color: #03647a;
+}
+.progress-line ul li.progress-3 span {
+    color: #fff;
+}
+.progress-line ul li.progress-3:before {
+    border-left: 30px solid #03647a;
+}
+
+.progress-line ul li.progress-6 {
+    background-color: #04acb5;
+}
+.progress-line ul li.progress-6 span {
+    color: #fff;
+}
+.progress-line ul li.progress-6:before {
+    border-left: 30px solid #04acb5;
+}
+
+.progress-line ul li.progress-4 {
+    background-color: #047b8e;
+}
+.progress-line ul li.progress-4 span {
+    color: #fff;
+}
+.progress-line ul li.progress-4:before {
+    border-left: 30px solid #047b8e;
+}
+
+.progress-line ul li.progress-5 {
+    background-color: #0792a0;
+}
+.progress-line ul li.progress-5 span {
+    color: #fff;
+}
+.progress-line ul li.progress-5:before {
+    border-left: 30px solid #0792a0;
+}
+
+.progress-line ul li.progress-6 {
+    background-color: #04acb5;
+}
+.progress-line ul li.progress-6 span {
+    color: #fff;
+}
+.progress-line ul li.progress-6:before {
+    border-left: 30px solid #04acb5;
+}
+.upper-new-heading {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    font-size: 24px;
+    color: #005377;
+    font-weight: 600;
+}
