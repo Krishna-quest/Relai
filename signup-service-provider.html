@@ -19,10 +19,12 @@
 </head>
 
 <body>
-  <div class="">
+  <section style="overflow: hidden;">
+    <div class="container-fluid p-0">
     <div class="row">
-      <div class="col-lg-6 signup">
-        <div class="clearfix">
+      <div class="col-lg-6 ">
+        <div class="signup">
+           <div class="clearfix header-login">
           <div class="logo-signup float-left">
             <a class="navbar-brand" href="index.html"><img src="images/logo-2.png" class="d-inline-block align-top"></a>
           </div>
@@ -35,26 +37,65 @@
         <p>START FOR FREE</p>
         <h1>Let’s get you started</h1>
         <form class="form" action="#">
-          <div class="form-group form-inline ">
-            <input type="text" class="form-control form-control-size " id="fullName" placeholder="FullName"
-              name="fullName">
-            <input type="email" class="form-control form-control-size" id="email" placeholder="Email ID" name="email">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group  ">
+                <input type="text" class="form-control form-control-size " id="fullName" placeholder="FullName"
+                  name="fullName">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group  ">
+                <input type="text" class="form-control form-control-size" id="phoneNumber" placeholder="Phone Number"
+                  name="phonenumber">
+               
+              </div>
+            </div>
           </div>
-          <div class="form-group form-inline ">
-            <input type="text" class="form-control form-control-size" id="phoneNumber" placeholder="Phone Number"
-              name="phonenumber">
-            <input type="text" class="form-control form-control-size" id="address" placeholder="Address" name="address">
+           <div class="row">
+            <div class="col-md-6">
+              <div class="form-group  ">
+                <input type="email" class="form-control form-control-size" id="email" placeholder="Email ID" name="email">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group  ">
+                <input type="text" class="form-control form-control-size" id="address" placeholder="Address" name="address">
+              </div>
+               
+            </div>
           </div>
-          <div class="form-group form-inline ">
-            <input type="text" class="form-control form-control-size" id="city" placeholder="City" name="city">
-            <input type="text" class="form-control form-control-size" id="country" placeholder="Country" name="country">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group  ">
+                <input type="text" class="form-control form-control-size" id="city" placeholder="City" name="city">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group ">
+                <input type="password" class="form-control form-control-size" id="password" placeholder="Password"
+                  name="password">
+              </div>
+            </div>
           </div>
-          <div class="form-group form-inline">
-            <input type="password" class="form-control form-control-size" id="password" placeholder="Password"
-              name="password">
-            <input type="password" class="form-control form-control-size" id="password" placeholder="Confirm password"
-              name="confirmPassword">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group  ">
+                <input type="text" class="form-control form-control-size" id="country" placeholder="Country" name="country">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group ">
+                <input type="password" class="form-control form-control-size" id="password" placeholder="Confirm password"
+                  name="confirmPassword">
+              </div>
+            </div>
           </div>
+         
+          
+          
+          
+          
           <p class="text-center">By signing up, you agree to the <a href="termsAndConditions.html">terms and
               conditions</a> of Relai.</p>
           <a href="signup-professionals-profile.html" class="btn btn-next">Next</a>
@@ -62,6 +103,8 @@
           <p class="text-center" style="margin-top :10px">Already have an account? <a href="signin.html"> Sign in
             </a> </p>
         </form>
+        </div>
+       
       </div>
 
       <div class="col-lg-6">
@@ -106,6 +149,7 @@
       </div>
     </div>
   </div>
+</section>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
