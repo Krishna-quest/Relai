@@ -273,8 +273,8 @@ ul.categories-list li span{
 /*counter start*/
 section.client-counter {
     padding: 70px 0px 50px 0px;
-    position: relative;
-}
+    /* position: relative;*/
+} 
 section.client-counter:before, section.discover-relai:before, section.features:before{
     content: "";
     position: absolute;
@@ -888,7 +888,7 @@ img.mr-10 {
 .sidenav2 {
     height: 100%;
     background: #fff;
-    padding: 25px 10px 0px 10px !important;
+    padding: 50px 10px 0px 10px !important;
     box-shadow: 0px 27px 24px rgba(0,0,0,10%);
 }
 .dashboard-inner {
@@ -2206,7 +2206,7 @@ button.btn.btn-signup {
 }
 @media (min-width: 1200px){
 .container {
-    max-width: 1380px 
+    max-width: 1200px 
 }
 }
 /* @media only (max-width: 1200px) {
@@ -2257,11 +2257,28 @@ button.btn.btn-signup {
 }
 .signup p{
     color: #005377;
-    padding-left: 20px;
+    
+}
+.kyc-professional p {
+    color: #005377;
+    margin-bottom: 0px;
+}
+.kyc-professional h1{
+    color: #005377;
+}
+.signup2 p{
+    color: #005377;
+   
+    margin-bottom: 0px;
+   
 }
 .signup h1{
     color: #005377;
-    padding-left: 20px;
+    
+}
+.signup2 h1{
+    color: #005377;
+    
 }
 .btn.btn-next {
     width: 70%;
@@ -2939,7 +2956,7 @@ margin-left: 20px;
     .pending{
         color:#f7cf58;
         font-weight: 300;
-        font-size: 18px;
+        font-size: 16px;
     }
     .pending-icon{
         padding-left: 160px;
@@ -2976,7 +2993,7 @@ margin-left: 20px;
     }
     .upload-professional a{
         color: #a1a1a1;
-        font-size: 20px;
+        font-size: 18px;
     }
     .kyc-image-section {
         padding-top: 60px;
@@ -2989,6 +3006,9 @@ margin-left: 20px;
         margin-top: 0px;
         padding-top: 0px;
     }
+    .portfolio-submit-button a:hover{
+        color:#fff;
+    }
     .submit-btn-fix{
         margin-left: 0px;
         margin-right: 30px;
@@ -3000,11 +3020,14 @@ margin-left: 20px;
     margin-right: 29px;
     height: 280px;
     float: left;
-    width: 230px;
+    width: 235px;
     padding: 15px 10px;
     text-align: center;
     border-radius: 10px;
     margin-top: 10px;
+}
+.pending-icon-professional img {
+    width: 16%;
 }
     .kyc-professional{
         margin-left: 0px;
@@ -3024,6 +3047,7 @@ margin-left: 20px;
             padding: 22px 20px 10px 20px;
             border-radius: 15px;
     }
+        
         .upload-professional {
             border: 1px solid #d6d6d6;
             display: inline-block;
@@ -3034,13 +3058,16 @@ margin-left: 20px;
             padding: 2px 10px 10px 10px;
             text-align: center;
             border-radius: 5px;
-            margin-bottom: 11px;
+            margin-top: 15px;
         }
         .submit-btn-professional-fix{
             margin-left: 0px;
             margin-right: 78px;
             margin-bottom:10px;
-            margin-top: 10px;
+            margin-top: 40px;
+        }
+        .submit-btn-professional-fix a:hover{
+            color:#fff;
         }
         .btn-submit-professional{
             width: 50%;
@@ -3073,7 +3100,7 @@ margin-left: 20px;
     border-radius: 15px;
 }
 .portfolio-add-button{
-        margin: 55px 11px 17px 48px;
+        margin: 55px 11px 17px 5px;
         padding: 15px;
         filter: drop-shadow(0 0 13.5px rgba(0,0,0,0.1));
         background-color: #ffffff;
@@ -3112,7 +3139,7 @@ margin-left: 20px;
     height: 38px;
     float: left;
     width: 100px;
-    padding: 2px 10px 10px 10px;
+    padding: 4px 10px 10px 10px;
     text-align: center;
     border-radius: 5px;
     margin-bottom: 11px;
@@ -3206,7 +3233,7 @@ margin-left: 20px;
         font-weight: bold;
     }
     .input-box-size-fix {
-        margin-left: 15px;
+        margin-left: 8px;
         margin-bottom: 15px;
     }
     .proposal-about-section {
@@ -3225,17 +3252,19 @@ margin-left: 20px;
     
     .signup-header p{
         color: #005377;
-        font-size: 25pt;
+        font-size: 13pt;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 4px;
     }
     .signup-head h3{
         color: #005377;
-        font-size: 50pt;
+        font-size: 28pt;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 4px;
     }
    
     .page-count {
-    font-size: 20pt;
+    font-size: 13pt;
     margin-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -3319,18 +3348,18 @@ margin-left: 20px;
         margin-bottom: 20px;
     }
     .signup-header {
-        padding-left: 30px;
+        padding-left: 40px;
         padding-right: 30px;
-        margin-top: 65px;
+        margin-top: 0px;
     }
     .signup-head{
-        padding-left: 30px;
+        padding-left: 40px;
         padding-right: 30px;
         margin-top: 0px;
     }
     .eductaion-sec{
         padding-left:10px;
-       padding-bottom: 350px;
+       padding-bottom: 190px;
     }
     .edu-btn {
         margin-left: 0px;
@@ -3345,14 +3374,14 @@ margin-left: 20px;
     .employment-sec{
            margin-top: 30px; 
     }
-
+    
     .employment-sec p{
         color: #005377;
-        font-size: 25pt;
+        font-size: 16pt;
     }
     .employment-sec h5{
         color: #bcb8b8;
-        font-size: 20pt;
+        font-size: 14pt;
     }
     #selectBox2 {
         width: 100%;
@@ -3377,12 +3406,17 @@ margin-left: 20px;
     .btn-sec{
         margin-top:60px;
     }
-    .prev-btn-fix2{
-        margin-left: 14px;
-        margin-top: 150px;
-        margin-bottom: 20px;
-
+    
+    .prev-btn-fix2 {
+            margin-left: 30px;
+            margin-top: 190px;
+            margin-bottom: 20px;
     }
+
+    .prev-btn-fix {
+            margin-left: 10px;
+            margin-bottom: 20px;
+        }
     .btn-add {
         color: #005377;
         width: 50px;
@@ -3736,4 +3770,34 @@ width: 20px;
     font-size: 24px;
     color: #005377;
     font-weight: 600;
+}
+
+/*stylig*/
+.about-us-sec h3 {
+        font-size: 30px;
+        color: #005377;
+}
+.content-section h5 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.mission-sec {
+    margin-top: 50px;
+}
+
+
+.signup-header p {
+    color: #005377;
+    font-size: 14pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signup2 {
+    padding-left: 78px;
+    padding-top: 50px;
+    padding: 42px 55px 0;
+}
+.upload-portfolio a {
+    color: #a1a1a1;
+    font-size: 16px;
 }
