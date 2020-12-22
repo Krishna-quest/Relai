@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="">
     <div class="row">
       <div class="col-lg-6 signup">
         <div class="clearfix">
@@ -33,21 +33,37 @@
           </div>
         </div>
         <p>START FOR FREE</p>
-        <h1>Sign up</h1>
-        <div class="col">
-          <div class="intro-box">
-            <a href="signup-service-provider.html"><img src="images/service-provider.png">&nbsp;&nbsp;&nbsp;<span
-                class="intro-text">become a
-                service
-                provider</span>&nbsp;&nbsp;&nbsp;<img src="images/right.png" alt=""></a>
+        <h1>Let’s get you started</h1>
+        <form class="form" action="#">
+          <div class="form-group form-inline ">
+            <input type="text" class="form-control form-control-size " id="fullName" placeholder="FullName"
+              name="fullName">
+            <input type="email" class="form-control form-control-size" id="email" placeholder="Email ID" name="email">
           </div>
+          <div class="form-group form-inline ">
+            <input type="text" class="form-control form-control-size" id="phoneNumber" placeholder="Phone Number"
+              name="phonenumber">
+            <input type="text" class="form-control form-control-size" id="address" placeholder="Address" name="address">
+          </div>
+          <div class="form-group form-inline ">
+            <input type="text" class="form-control form-control-size" id="city" placeholder="City" name="city">
+            <input type="text" class="form-control form-control-size" id="country" placeholder="Country" name="country">
+          </div>
+          <div class="form-group form-inline">
+            <input type="password" class="form-control form-control-size" id="password" placeholder="Password"
+              name="password">
+            <input type="password" class="form-control form-control-size" id="password" placeholder="Confirm password"
+              name="confirmPassword">
+          </div>
+          <p class="text-center">By signing up, you agree to the <a href="termsAndConditions.html">terms and
+              conditions</a> of Relai.</p>
+          <a href="signup-professionals-profile.html" class="btn btn-next">Next</a>
 
-          <div class="intro-box">
-            <a href="signup.html"> <img src="images/customer.png">&nbsp;&nbsp;&nbsp;<span class="intro-text">become a
-                customer</span>&nbsp;&nbsp;&nbsp;<img src="images/right.png" alt=""></a>
-          </div>
-        </div>
+          <p class="text-center" style="margin-top :10px">Already have an account? <a href="signin.html"> Sign in
+            </a> </p>
+        </form>
       </div>
+
       <div class="col-lg-6">
         <div id="demo" class="carousel slide my-slider" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -77,8 +93,10 @@
               </div>
             </div>
           </div>
+
           <!-- Left and right controls -->
           <a class="carousel-control-prev" href="#demo" data-slide="prev">
+
             <i class="fa fa-angle-left" aria-hidden="true"></i>
           </a>
           <a class="carousel-control-next" href="#demo" data-slide="next">
@@ -88,6 +106,7 @@
       </div>
     </div>
   </div>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>

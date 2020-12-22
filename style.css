@@ -80,9 +80,9 @@ header.home-page {
     margin-top: 5px;
     padding: 10px 15px;
 }
-.banner {
+/* .banner {
     padding-top: 110px;
-}
+} */
 button.navbar-toggler i {
     color: #275477;
 }
@@ -880,6 +880,12 @@ img.mr-10 {
   position: relative;
 }    
 .sidenav {
+    height: 100%;
+    background: #fff;
+    padding: 25px 10px 0px 10px !important;
+    box-shadow: 0px 27px 24px rgba(0,0,0,10%);
+}
+.sidenav2 {
     height: 100%;
     background: #fff;
     padding: 25px 10px 0px 10px !important;
@@ -2348,7 +2354,6 @@ button.btn.btn-signup {
         width: 80%;
     }
    
-
     /* Raise your Complaint*/
     .btn.pop-btn {
         width: 70%;
@@ -2434,6 +2439,15 @@ button.btn.btn-signup {
     }
     .icon-list li {
         display: inline;
+    }
+    .card-fix2{
+    width: 13.2rem;
+    height: 228px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 0 5.5px rgba(0,0,0,0.1));
+    background-color: #ffffff;
+    margin-left: 30px;
     }
     .card-fix{
         width: 18.9rem;
