@@ -110,7 +110,7 @@
             </div>
             <ul class="dashboard-nav">
               <li>
-                <a href="dashboard.html"><img class="act-img" src="images/dashboard-active.png"><img
+                <a href="dashboard-professional.html"><img class="act-img" src="images/dashboard-active.png"><img
                     src="images/dashboard.png"> Dashboard</a>
               </li>
               <li>
@@ -133,11 +133,11 @@
             </ul>
           </div>
           <div class="col-sm-12 col-lg-10">
-            <div class=" dashboard-inner">
+            <div class=" property-detail-inner">
               <div class="row back-to-home">
                 <div class="breadcumb">
                   <ul>
-                    <li><a href="dashboard.html"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back to All
+                    <li><a href="property.html"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back to All
                         Properties</a></li>
                   </ul>
                 </div>
@@ -150,7 +150,7 @@
                   </div>
                 </div>
                 <div class="col-sm-12 col-lg-6">
-                  <span><img src="images/user-1.png"><span style="font-size: 18px;">by
+                  <span><img src="images/user-1.png"><span style="font-size: 16px;">by
                       Robin Janson</span></span>
                 </div>
               </div>
@@ -171,15 +171,16 @@
                   <div class="row">
 
 
-                    <div class="input-box-size-fix">
-                      <input type="date" class="form-control input-control-size-fix " id="address"
+                    <div class="input-box-size-fix2">
+                      <input type="date" class="form-control property-input-size-fix " id="address"
                         placeholder="Start date" name="address">
                     </div>
 
-                    <div class="input-box-size-fix">
-                      <input type="date" class="form-control input-control-size-fix " id="address"
+                    <div class="input-box-size-fix2">
+                      <input type="date" class="form-control property-input-size-fix " id="address"
                         placeholder="End date" name="address">
                     </div>
+
                   </div>
 
 
@@ -193,66 +194,80 @@
                         <div class="col-sm-12 col-lg-4">
                           <h4>Tell us how you will pay?</h4>
                         </div>
-                        <div class="col-sm-12 col-lg-4"><label class="check-todos">
-                            <p>Payment in milestones</p>
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
-                          </label></div>
-                        <div class="col-sm-12 col-lg-4"><label class="check-todos">
-                            <p>Payment in lumpsum</p>
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                          </label></div>
-
-
-                        <div class="input-box-size-fix">
-                          <input type="text" class="form-control form-control-size-fix " style="border-radius: 10px;"
-                            id="address" placeholder="MileStone 1" name="address">
+                        <div class="col-sm-12 col-lg-4">
+                          <div class="property-tickmark">
+                            <label class="check-todos">
+                              <p>Payment in milestones</p>
+                              <input type="checkbox" checked="checked">
+                              <span class="checkmark">
+                              </span>
+                            </label>
+                          </div>
                         </div>
-
-
-
-                        <div class="input-box-size-fix">
-                          <input type="date" class="form-control input-control-size-fix " id="address"
-                            placeholder="Date" name="address">
+                        <div class="col-sm-12 col-lg-4">
+                          <div class="property-tickmark">
+                            <label class="check-todos">
+                              <p>Payment in lumpsum</p>
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
                         </div>
-
-
-
-                        <div class="input-box-size-fix">
-                          <input type="text" class="form-control form-control-size-fix " style="border-radius: 10px;"
-                            id="address" placeholder="MileStone 2" name="address">
-                        </div>
-
-
-
-                        <div class="input-box-size-fix">
-                          <input type="date" class="form-control input-control-size-fix " id="address"
-                            placeholder="Date" name="address">
-                        </div>
-
-
-                        <div class="">
-                          <a href="#" class="btn btn-add-plus"><i class="fa fa-plus"></i></a>
-                        </div>
-
                       </div>
                     </div>
+                    <div class="row">
+
+                      <div class="input-box-size-fix2">
+                        <input type="text" class="form-control property-input-size-fix " id="address"
+                          placeholder="MileStone 1" name="address">
+                      </div>
+
+
+
+                      <div class="input-box-size-fix2">
+                        <input type="date" class="form-control property-input-size-fix " id="address" placeholder="Date"
+                          name="address">
+                      </div>
+
+                    </div>
+                    <div class="row">
+
+                      <div class="input-box-size-fix2">
+                        <input type="text" class="form-control property-input-size-fix " id="address"
+                          placeholder="MileStone 2" name="address">
+
+                      </div>
+
+
+                      <div class="input-box-size-fix2">
+                        <input type="date" class="form-control property-input-size-fix " id="address" placeholder="Date"
+                          name="address">
+
+                      </div>
+
+                      <div class="">
+                        <a href="#" class="btn property-add-btn"><i class="fa fa-plus"></i></a>
+                      </div>
+
+                    </div>
                   </div>
+
                   <div class="col-sm-12 col-lg-4">
                     <div class="step-1">
                       <p>STEP 3</p>
                       <h4>Add extra notes/attachments if any</h4>
 
-                      <div class="input-box-size-fix">
-                        <input type="text" class="form-control form-control-size-fix" style="border-radius: 10px;"
-                          id="address" placeholder="Notes(if any)" name="address">
+                      <div class="input-box-size-fix2">
+                        <input type="text" class="form-control property-input-size-fix" id="notes"
+                          placeholder="Notes(if any)" name="notes">
                       </div>
 
 
-                      <div class="input-box-size-fix">
-                        <input type="text" class="form-control form-control-size-fix " style="border-radius: 10px;"
-                          id="address" placeholder="1143 Buena Visa Avenue" name="address">
+                      <div class="input-box-size-fix2">
+                        <div class=" property-attchment-box-fix">
+                          <p>Add attachments if any <span class="float-right"><a href="#"><u>upload</u></a></span></p>
+
+                        </div>
                       </div>
 
 
