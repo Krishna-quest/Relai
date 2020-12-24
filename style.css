@@ -3635,6 +3635,15 @@ color: #005377;
         border-radius: 10px;
         width: 100%;
     }
+    .text-field-size-fix {
+        margin: 0px 0px 9px 0px;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        width: 100%;
+    }
     .text-field {
         margin: 6px 0px 9px 0px;
         padding-top: 10px;
@@ -3643,6 +3652,28 @@ color: #005377;
         padding-right: 20px;
         border-radius: 10px;
         width: 102%;
+    }
+    .text-field-fix {
+        margin: 6px 0px 9px 0px;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        width: 102%;
+    }
+    .contact-us-btn{
+    float: right;
+    }
+
+    .btn.contact-btn {
+       color:#fff;
+        background: #005377;
+        width:164px;
+        margin-top:10px;
+        margin-bottom:20px;
+        font-size: 16px;
+        margin-right:-14px;
     }
 
     .date-field-size {
@@ -4399,7 +4430,7 @@ button.btn.professional-search-btn.dropdown-toggle {
     font-weight: 700;
     padding-left: 10px;}
 
-    .img-fix3.float-right a img {
+.img-fix3.float-right a img {
     padding: 3px;
     width: 38%;
 }
@@ -4429,3 +4460,70 @@ label.todos.check-todos {
     font-size: 16px;
     /* margin-left: 0px; */
 }
+.contact-detail-sec{
+   background-color: #f7f7f7;
+   width:100%;
+   height: 200px; 
+}
+.contact-detail{
+    padding: 27px;
+    padding-top: 66px;
+    height: 200px;
+    padding-left: 50px;
+}
+.custom-file-input{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+.custom-file-input input[type="file"]{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.add-edu-btn{
+    color: #0373a3;
+    width: 164px;
+    padding: 7px 9px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #037aad;
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-detail h3{
+color: #005377;
+font-size:18px;
+font-weight: 700;
+font-family: 'Gill Sans MT Bold';
+text-align:center;
+}
+
+.contact-detail p{
+    font-size:16px;
+    font-family: 'Gill Sans MT Bold';
+    text-align:center;
+    }
+    
+    .custom-file-input{
+        display: inline-block;
+		overflow: hidden;
+        position: relative;
+    }
+    .custom-file-input input[type="file"]{
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
