@@ -939,6 +939,9 @@ img.mr-10 {
 .dashboard-inner {
     padding: 30px 30px 30px 30px;
 }
+.hirenow-inner {
+    padding: 0px 30px 30px 30px;
+}
 .property-inner{
     padding: 30px 30px 10px 30px;
     border-bottom: 1px solid #d6d6d6;
@@ -1096,6 +1099,10 @@ ul.docs-list li span {
 }
 .start-date b{
     color : black;
+}
+.btn-hire a:hover{
+    color:#ffff;
+
 }
 
 .doc-table .table td, .todo-list-table .table td, .doc-table .table th, .todo-list-table .table th{
@@ -1574,10 +1581,26 @@ a.btn.btn-new {
 
 .do-list-sec {
     height: 455px;
-    padding: 35px 20px;
+    padding: 20px 20px;
     border-radius: 10px;
     background-color: #fff;
     border: 1px solid #d1d1d1;
+}
+.do-list-sec a{
+    color:#000;
+    font-weight: 800;
+    font-size:18px;
+    font-family: 'Gill Sans MT';
+    
+}
+.todos-inner
+{
+    padding: 0px 30px 30px 30px;
+}
+
+.do-list-header{
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 20px;
 }
 /*mydream-home end*/
 @media (min-width: 320px) and (max-width: 413px) {
@@ -2415,7 +2438,7 @@ button.btn.btn-signup {
 .btn-complaint{
     width: 100%;
     color: #fff;
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 10px;
 
     padding: 10px 12px;
@@ -2567,7 +2590,7 @@ button.btn.btn-signup {
     ul.icon-list li {
         display: inline-block;
     margin-right: 8px;
-    height: 140px;
+    height: 134px;
     float: left;
     width: 80px;
     padding: 15px 10px;
@@ -2575,6 +2598,12 @@ button.btn.btn-signup {
     border-radius: 10px;
     margin-top: 22px;
     margin-left: 8px;
+    }
+    li.active.font-change a {
+        font-family: 'Gill Sans MT';
+    }
+    .submit-proposal-fix a:hover{
+        color:#fff;
     }
     
     .professional-right-sec{
@@ -2609,6 +2638,18 @@ margin-top:20px;
     background-color: #ffffff;
    
     }
+    button.btn.btn-professional.dropdown-toggle {
+        margin-bottom: 10px;
+    }
+    .card-fix3{
+        width: 14.2rem;
+        height: 228px;
+        background-color: #fff;
+        margin-bottom: 15px;
+        filter: drop-shadow(0 0 5.5px rgba(0,0,0,0.1));
+        background-color: #ffffff;
+       margin-left:20px;
+        }
     .card-fix{
         width: 18.9rem;
         height: 400px;
@@ -2689,6 +2730,12 @@ margin-top:20px;
         .card-content-fix h5{
             margin-bottom: 5px;
         }
+        .card-content-fix a{
+           color: #6d6d6d;
+        }
+        .card-content-fix a:hover{
+            color: #6d6d6d;
+         }
     .card-icon-fix{
         margin-top: 5px;
         margin-left: 15px;
@@ -2753,6 +2800,15 @@ margin-top:20px;
         border-radius: 46px;
         filter: drop-shadow(0px 1px 14.5px rgba(0,0,0,0.15));
         background-color: #ffffff;
+    }
+    .user-profile-fix2{width: 115px;
+    height: 115px;
+    line-height: 113px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 82px;
+    filter: drop-shadow(0px 1px 14.5px rgba(0,0,0,0.15));
+    background-color: #ffffff;
     }
     .user-name-fix {
         margin-top: 10px;
@@ -2897,14 +2953,14 @@ margin-top:20px;
         padding:15px;
         filter: drop-shadow(0 0 13.5px rgba(0,0,0,0.1));
         background-color: #ffffff;
-        margin-top:101px
+        /* margin-top:101px */
     }
     .professional-files-section2{
         margin-bottom: 20px;
         padding:15px;
         filter: drop-shadow(0 0 13.5px rgba(0,0,0,0.1));
         background-color: #ffffff;
-        margin-top:51px
+        margin-top:31px
     }
     .btn-message{
         color: #fff;
@@ -2967,6 +3023,36 @@ margin-top:20px;
     padding-right: 25px;
     border-radius: 10px;
     width: 94%;
+}
+
+.add-professionals{
+border:2px solid #005377;
+color:#005377;
+border-radius:10px;
+font-size:15px;
+padding: 6px;
+margin-left:20px;
+}
+.recent-img a{
+    color: #005377;
+}
+.recent-img a:hover{
+    color:#005377
+}
+.submit-proposal-btn{
+    background: #005377;
+    color: #ffff;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
+.form-control-fix2 {
+    margin: 1px 0px 20px 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    border-radius: 10px;
+    width: 100%;
 }
 .model-btn-fix{
     margin-left: 20px;
@@ -3039,7 +3125,7 @@ margin-left: 20px;
         box-shadow: none;
       }
     .dropdown-menu{
-        width: 240px;
+        width: 224px;
         height: 120px;
         border-radius: 10px;
         padding: 0px 0px 0px 0px;
@@ -3047,25 +3133,25 @@ margin-left: 20px;
 
     }
     .item1{
-        font-size: 21px;
+        font-size: 19px;
         font-weight: 200;
         padding: 15px 20px 20px 20px;
-        width: 240px;
+        width: 224px;
         height: 60px;
     }
     .item2{
-        font-size: 21px;
+        font-size: 19px;
         font-weight: 200;
         padding: 10px 20px 20px 20px;
-        width: 240px;
+        width: 2240px;
         height: 60px;
     }
     .dropdown-menu >.item1:hover {
         background-image: none;
         background: #005377;
         color: #ffffff;
-        width:239px;
-        height:61px;
+        width:223px;
+        height:60px;
         border-radius: 10px;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
@@ -3074,8 +3160,8 @@ margin-left: 20px;
         background-image: none;
         background: #005377;
         color: #ffffff;
-        width:239px;
-        height:61px;
+        width:223px;
+        height:60px;
         border-radius: 10px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
@@ -3101,7 +3187,7 @@ margin-left: 20px;
     margin-bottom: 20px;
     padding-left:20px;
     padding-right:20px;
-    margin-top: 5px;
+    margin-top: 0px;
     
 
 }input.form-control.professional-search {
@@ -3382,17 +3468,20 @@ margin-top: 40px;;
 .img-fix{
         margin-top:15px;
     }
+    .complaints a:hover{
+        color:#ffff;
+
+    }
 .complaints-sec{
-        border-bottom: 2px solid #f5f5f5;
+        border-bottom: 1px solid #969696;
     }
 .complaints{
         margin-top:10px;
-        padding-left:45px;
+        padding-left:40px;
         margin-bottom: 10px;
     }
 .complaints h2{
-        font-size: 30px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 28px;
         color: #005377;
         font-weight: bold;
     }
@@ -4298,4 +4387,45 @@ button.btn.professional-search-btn.dropdown-toggle {
     border: 2px solid #005377;
     margin-left: 10px;
     height: 38px;
+}
+.message-drop.float-left p {
+    font-size: 14px;
+    /* font-weight: 700; */
+    padding-left: 10px;
+    margin-top: 0px;
+}
+.message-drop.float-left h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;}
+
+    .img-fix3.float-right a img {
+    padding: 3px;
+    width: 38%;
+}
+
+.image-linear-aerrow{
+    padding:10px;
+}
+.apartment-name2 {
+    color: #005377;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.apartment-name2 a{
+    color:#005377;
+}
+
+.apartment-name2 a:hover{
+    color:#005377;
+}
+
+.todos.check-todos span.checkmark {
+    height: 20px;
+    width: 20px;
+    /* margin-left: 10px; */
+}
+label.todos.check-todos {
+    font-size: 16px;
+    /* margin-left: 0px; */
 }
