@@ -764,7 +764,7 @@ h1 a.logo {
     font-style: italic;
 }
 .user-login.text-center {
-    padding: 30px 0px;
+    padding: 20px 0px;
     border-bottom: 1px solid #d6d6d6;
 }
 .sidenav ul{
@@ -2589,15 +2589,15 @@ button.btn.btn-signup {
     }
     ul.icon-list li {
         display: inline-block;
-    margin-right: 8px;
-    height: 134px;
-    float: left;
-    width: 80px;
-    padding: 15px 10px;
-    text-align: center;
-    border-radius: 10px;
-    margin-top: 22px;
-    margin-left: 8px;
+        margin-right: 8px;
+        height: 137px;
+        float: left;
+        width: 80px;
+        padding: 15px 10px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 0px;
+        margin-left: 8px;
     }
     li.active.font-change a {
         font-family: 'Gill Sans MT';
@@ -4157,6 +4157,8 @@ width: 20px;
     font-size: 24px;
     color: #005377;
     font-weight: 600;
+    padding-left: 30px;
+    font-family: 'Gill Sans MT Bold';
 }
 .mission-sec {
     margin-top: 50px;
@@ -4527,3 +4529,4 @@ text-align:center;
         left: 0;
         z-index: 999;
     }
+    
